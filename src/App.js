@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+// import Hooks from './Components/Hooks'
+// import ArrayHook from './Components/ArrayHook'
+// import ObjectHook  from './Components/ObjectHook'
+// import LoginForm from './Components/LoginForm';
+import UseEfeectHook  from './Components/UseEffectHook'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    {/* <ObjectHook/>
+    <ArrayHook/> */}
+    {/* <LoginForm/> */}
+    <UseEfeectHook/>
+    
     </div>
   );
 }
