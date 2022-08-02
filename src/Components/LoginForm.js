@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { NavLink } from "react-router-dom"
 
 const LoginForm = ()=>{
     const [email, setEmail] = useState()
@@ -29,7 +30,8 @@ const LoginForm = ()=>{
             <label>Password</label>
             <input type="password" name="password" id="password" value={password} onChange={(e)=>setPassword(e.target.value)}/>
             </div>
-            <button type="submit" >Log In</button>
+            <NavLink to='/useEfeectApi' ><button type="submit" onClick={submitForm} >Log In</button></NavLink>
+    
         </form>
         </>
     )
