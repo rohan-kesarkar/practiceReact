@@ -10,7 +10,8 @@ import './App.css';
 //import Component1 from './Components/UseContext/Component1'
 // import UseLocationHook from './Components/UseLocation'
 //import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
-import Todo from './Components/TodoList/todo'
+//import Todo from './Components/TodoList/todo'
+import LocalStorage from './Components/TodoList/localStorage'
 
 function App() {
   return (
@@ -30,7 +31,8 @@ function App() {
     {/* <UseReducerHook/> */}
     {/* <Component1/> */}
     {/* <UseLocationHook/> //it will work with router */}
-    <Todo/>
+    {/* <Todo/> */}
+    <LocalStorage/>
 
     </div>
   );
