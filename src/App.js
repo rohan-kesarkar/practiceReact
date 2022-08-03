@@ -11,11 +11,12 @@ import './App.css';
 // import UseLocationHook from './Components/UseLocation'
 //import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 //import Todo from './Components/TodoList/todo'
-import LocalStorage from './Components/TodoList/localStorage'
-
+//import LocalStorage from './Components/TodoList/localStorage'
+//import HandleImage from './Components/HandleImage';
+import Filter from './Components/Image Gallery/filter'
 function App() {
   return (
-    <div className="App">
+    <div>
     {/* <ObjectHook/>
     <ArrayHook/> */}
     {/* <Router>
@@ -32,7 +33,9 @@ function App() {
     {/* <Component1/> */}
     {/* <UseLocationHook/> //it will work with router */}
     {/* <Todo/> */}
-    <LocalStorage/>
+    {/* <LocalStorage/> */}
+    {/* <HandleImage/> */}
+    <Filter/>
 
     </div>
   );
